@@ -17,7 +17,7 @@ export default class WebViewShell extends Component {
   render() {
     return (
       <View style={styles.container}>
-        <WebView url={'http://www.martinbing.com'} />
+        <WebView source={{uri: 'https://www.facebook.com'}} />
       </View>
     );
   }
